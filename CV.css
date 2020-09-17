@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 150vh;
+    background-color: rgba(255, 228, 196, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    margin: 50px;
+    padding: 5px;
+    background-color: rgba(137, 43, 226, 0.295);
+    
+}
+#innerContainer{
+    /* width: 980px; */
+    /* height: 95vh; */
+    background-color: aliceblue;
+}
+
+#header{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(9, 138, 121);
+    margin: 5px;
+    padding: 5px;
+    font-size: 9px;
+    position: sticky;
+    top: 0;
+}
+#name{
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.unitInfo{
+    margin: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+.unitInfoHeader{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.unitInfoBody{
+    margin-top: 10px;
+}
+.schData{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.subHeader{
+    font-weight: bold;
+}
+.right{
+    float: right;
+    font-weight: bold;
+}
+.award{
+    width: 100%;
+    margin-top: 10px;
+}
+.unitInfoBody ul {
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
