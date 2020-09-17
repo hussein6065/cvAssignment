@@ -5,37 +5,43 @@
 
 body{
     height: 100vh;
-    background-color: rgba(255, 228, 196, 0.404);
+    background-image: url("https://iinfosec.com/graphics/network-intrusion-detection_201078825.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    color: #162229;
 
 }
 
 #container{
-    background-color: turquoise;
+    background-color: rgba(64, 224, 208, 0.479);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    /* height: 50vh; */
     /* width: 600px; */
     padding: 10px;
+    border-radius: 10px;
 }
 #innerContain{
     /* width: 600px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+
+    /* background-color: pink; */
     
 }
 form{
     display: flex;
     flex-direction: column;
-    background-color: pink;
-    
+    background-color: turquoise;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-color: #1622295e;
     width: 500px;
     padding: 5px;
 
@@ -43,7 +49,7 @@ form{
 
 .inputCont input {
     /* margin: 5px; */
-    height:  25px;
+    height:  30px;
     /* background-color: bisque; */
     float: right;
     border-radius: 5px;
@@ -62,18 +68,22 @@ label{
 #title{
     text-align: center;
     font-size: larger;
-    background-color: blue;
+    background-color:turquoise;
     padding: 5px;
-    margin: 5px;
+    margin-bottom: 5px;
     font-size: 30px;
+    border-color: #1622295e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
 }
 
 .inputCont{
-    /* height: 30px; */
+    height: 30px;
     
     display: inline;
     margin: 4px;
-    background-color: white;
+    /* background-color: white; */
     padding: 5px;
 
 }
@@ -88,8 +98,16 @@ label{
     /* height: 50px; */
 }
 #create{
-    width: 200px;
+    height: 40px;
+    width: 50%;
     text-transform: uppercase;
+    font-weight: bold;
     border-radius: 5px;
     padding-left: 5px;
+}
+#address{
+    height: 80%;
+}
+#addCont{
+    height: 70px;
 }

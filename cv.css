@@ -15,24 +15,26 @@ body{
 #container{
     margin: 50px;
     padding: 5px;
-    background-color: rgba(137, 43, 226, 0.295);
+    /* background-color: rgba(137, 43, 226, 0.295); */
+    border-style: solid;
+    border-color: ;
     
 }
 #innerContainer{
     /* width: 980px; */
     /* height: 95vh; */
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 #header{
     justify-content: center;
     text-align: center;
-    background-color: rgb(9, 138, 121);
+    /* background-color: rgb(9, 138, 121); */
     margin: 5px;
     padding: 5px;
-    font-size: 9px;
-    position: sticky;
-    top: 0;
+    font-size: 12px;
+    /* position: sticky; */
+    /* top: 0; */
 }
 #name{
     font-size: 20px !important;
